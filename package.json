@@ -1,0 +1,19 @@
+{
+  "name": "wolvesville-discord-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord connecté à l'API Wolvesville pour gérer ton clan",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
